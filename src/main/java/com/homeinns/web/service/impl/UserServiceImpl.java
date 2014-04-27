@@ -14,5 +14,4 @@ public class UserServiceImpl implements IUserService {
 	public String sayName(String name) {
 		return userDao.sayName(name);
 	}
-
 }
