@@ -9,6 +9,7 @@ import com.homeinns.web.service.impl.UserServiceImpl;
 public class TestUserService {
 	@Test
 	public void Testname() {
+		
 		ApplicationContext contextClassPath = new ClassPathXmlApplicationContext("applicationContext.xml");
 		// ApplicationContext contextFileSystem = new  FileSystemXmlApplicationContext("WebRoot/WEB-INF/applicationContext.xml");
 		UserServiceImpl userImpl = (UserServiceImpl) contextClassPath.getBean(UserServiceImpl.class);
