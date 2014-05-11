@@ -17,9 +17,9 @@
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<fileNamePattern>${log.base}/app.%d{yyyy-MM-dd-HH}.log.zip
 			</fileNamePattern>
-			<maxHistory>48</maxHistory>
+			<maxHistory>100</maxHistory>
 		</rollingPolicy>
-
+		
 		<layout class="ch.qos.logback.classic.PatternLayout">
 			<pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level
 				%logger{80}:%method[%line] %msg%n</pattern>
